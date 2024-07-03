@@ -5,12 +5,16 @@ import Counter from "../components/starter/counter/counter";
 import Hero from "../components/starter/hero/hero";
 import Infobox from "../components/starter/infobox/infobox";
 import Starter from "../components/starter/next-steps/next-steps";
+import IceCream from '../media/icecream.jpg?jsx';
 
 export default component$(() => {
   return (
     <>
       <Hero />
       <Starter />
+      <div style="width: 100%; height: 100%;">
+        <IceCream />
+      </div>
 
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
